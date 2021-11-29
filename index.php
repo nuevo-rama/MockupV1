@@ -42,7 +42,7 @@
                     <input class="desktop_search_input" placeholder="BUSCAR">
                     <div class="desktop_search_icon"><img src="img/search.svg" alt="search"></div>
                 </div>
-                <button class="desktop_btn" href="#" onclick="myFunction()">INGRESAR</button>
+                <button class="desktop_btn" href="#" onclick="hiddenFunction()">INGRESAR</button>
                 <button class="desktop_btn" type="button">CARRITO</button>
             <div class="clear"></div>
             <div class="bag"><img src="img/Grupo 18567.svg" alt="bag"></div>
