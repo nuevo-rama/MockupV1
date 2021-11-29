@@ -122,7 +122,7 @@
             <div class="container_left">
                 <h2>FILTRAR POR</h2>
                 <div class="dropdown_filter">
-                    <button type="button" class="dropdown_filter">Talle</button>
+                    <button>Talle</button>
                     <div class="mas"><img src="img/MAS.svg" alt="mas"></div>
                 </div>
                 <div class="talle_dropdown">
@@ -171,7 +171,7 @@
                     <button>Precio</button>
                     <div class="mas"><img src="img/MAS.svg" alt="mas"></div>
                 </div>
-                <div class="precio_dropdown">
+                <div class="talle_dropdown">
                     <input type="radio" id="" name="" value="">
                     <label for="">$2.000 - $3.000</label><br>
                     <input type="radio" id="" name="" value="">
@@ -180,23 +180,23 @@
                 <div class="dropdown_filter">
                     <button>Temporada</button>
                     <div class="mas"><img src="img/MAS.svg" alt="mas"></div>
-                <div class="precio_dropdown">
-                    <input type="radio" id="" name="" value="">
-                    <label for=""></label><br>
-                    <input type="radio" id="" name="" value="">
-                    <label for=""></label><br>
                 </div>
+                <div class="talle_dropdown">
+                    <input type="radio" id="" name="" value="">
+                    <label for="">.</label><br>
+                    <input type="radio" id="" name="" value="">
+                    <label for="">.</label><br>
                 </div>
                 <div class="dropdown_filter">
                     <button>Material</button>
                     <div class="mas"><img src="img/MAS.svg" alt="mas"></div>
-                <div class="precio_dropdown">
-                    <input type="radio" id="" name="" value="">
-                    <label for=""></label><br>
-                    <input type="radio" id="" name="" value="">
-                    <label for=""></label><br>
                 </div>
-                </div>
+                <div class="talle_dropdown">
+                    <input type="radio" id="" name="" value="">
+                    <label for="">.</label><br>
+                    <input type="radio" id="" name="" value="">
+                    <label for="">.</label><br>
+                </div>              
             </div>
             <div class="group_container_right">
                 <div class="desktop_sub_container">
