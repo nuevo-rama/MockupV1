@@ -61,7 +61,6 @@ body {
 
 /***Display none for Mobile***/
 
-
 .desktop_nav, #desktop_nav_red, .desktop_search, .desktop_search_icon, 
 .desktop_search_input, .desktop_btn, 
 .container_left, .container_subtitle_desktop, img.imageSrcDesktop,
@@ -205,13 +204,6 @@ h2#title_category {
 
 #item_product, #clone_item_product {
     display: block;
-    /*display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    align-self: center;*/
 }
 
 img.imageSrcMobile {
@@ -484,8 +476,7 @@ footer {
     font: normal normal normal 14px/30px Montserrat;
     letter-spacing: 0px;
     color: #5D5D5D;
-    user-select: none;
-    
+    user-select: none; 
 }
 
 .container input {
@@ -494,7 +485,6 @@ footer {
     cursor: pointer;
     height: 0;
     width: 0;
-    
 }
 
 .checkmark {
@@ -698,12 +688,14 @@ a.modal_button {
     }
     .dropdown_filter:focus {
         box-shadow: #B5B5B5;
-      }
+    }
 
     .mas img, .menos img {
         width: 12px;
     }
-    .talle_dropdown, .color_dropdown, .precio_dropdown {
+
+    .talle_dropdown, .color_dropdown, .precio_dropdown, 
+    .temporada_dropdown, .material_dropdown {
         align-self: flex-start;
         display: none;
         overflow: hidden;
@@ -711,8 +703,6 @@ a.modal_button {
     .group_container_right {
         display: block;
         
-        
-      
     }
     .desktop_sub_container {
         width: 100%;
@@ -801,6 +791,7 @@ a.modal_button {
     /*** DROPDOWN SHOP ***/
 
     .dropbtn {
+        display: block;
         background-color: #FFFFFF;
         padding: 5px;
         text-align: left;
@@ -835,10 +826,10 @@ a.modal_button {
       .dropdown-content a:hover {
           background-color: #D9D9D9
       }
-      .dropdown:hover .dropdown-content {
+      .dropdownMenu:hover .dropdown-content {
         display: block;
       }
-      .dropdown:hover .dropbtn {
+      .dropdownMenu:hover .dropbtn {
         background-color: #D9D9D9;
         box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
       }
