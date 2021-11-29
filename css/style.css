@@ -65,7 +65,7 @@ body {
 .desktop_nav, #desktop_nav_red, .desktop_search, .desktop_search_icon, 
 .desktop_search_input, .desktop_btn, 
 .container_left, .container_subtitle_desktop, img.imageSrcDesktop,
-.dropbtn, .dropdown, .dropdown-content {
+.dropbtn, .dropdownMenu, .dropdown-content {
     display: none;
 }
 
@@ -674,6 +674,7 @@ a.modal_button {
         width: 100%;
     }
     .dropdown_filter {
+        cursor: pointer;
         margin-top: 20px;
         margin-bottom: 20px;
         width: 100%;
@@ -686,6 +687,7 @@ a.modal_button {
         align-content: center;
     }
     .dropdown_filter button {
+        cursor: pointer;
         text-align: left;
         font: normal normal normal 14px/24px Montserrat;
         letter-spacing: 0px;
@@ -694,11 +696,17 @@ a.modal_button {
         border: none;
         background-color: transparent;
     }
+    .dropdown_filter:focus {
+        box-shadow: #B5B5B5;
+      }
+
     .mas img, .menos img {
         width: 12px;
     }
-    .talle_dropdown, .color_dropdown, .price_dropdown {
+    .talle_dropdown, .color_dropdown, .precio_dropdown {
         align-self: flex-start;
+        display: none;
+        overflow: hidden;
     }
     .group_container_right {
         display: block;
@@ -802,7 +810,7 @@ a.modal_button {
         border: none;
         cursor: pointer;
       }
-      .dropdown {
+      .dropdownMenu {
         position: relative;
         display: inline-block;
       }
@@ -834,4 +842,5 @@ a.modal_button {
         background-color: #D9D9D9;
         box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
       }
+
 }
