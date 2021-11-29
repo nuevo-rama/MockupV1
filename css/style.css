@@ -824,14 +824,19 @@ a.modal_button {
         display: block;
       }
       .dropdown-content a:hover {
-          background-color: #D9D9D9
+          background-color: #D9D9D9;
+          transition: 0.3s;
       }
       .dropdownMenu:hover .dropdown-content {
         display: block;
+        opacity: 1;
+        transition: 0.8s;
       }
       .dropdownMenu:hover .dropbtn {
         background-color: #D9D9D9;
         box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-bottom: 4px;
       }
 
 }
