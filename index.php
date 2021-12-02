@@ -219,12 +219,12 @@
                                     <?php echo $item['name'] ?>
                                 </p>
                                 <p class="item_bestPrice">
-                                    $<?php echo $item['bestPrice'] ?>
+                                    <?php echo $item['bestPrice'] ?>
                                 </p>
                                 <p class="item_listPrice">
-                                    $<?php echo $item['listPrice'] ?>
+                                    <?php echo $item['listPrice'] ?>
                                 </p>
-                                <p class="item_fees">Hasta <?php echo $item['fees'] ?> cuotas</p><br>
+                                <p class="item_fees"><?php echo $item['fees'] ?></p><br>
                             </div>
                     <?php
                         }
@@ -234,17 +234,9 @@
                             <img class="imageSrcMobile">
                             <img class="imageSrcDesktop">
                                 <p class="item_name"></p>
-                                <p class="item_bestPrice_copy">
-                                    $</p>
                                 <p class="item_bestPrice"></p>
-                                <p class="item_listPrice_copy">
-                                    $</p>
                                 <p class="item_listPrice"></p>
-                                <p class="item_fees_copy">
-                                    Hasta</p>
                                 <p class="item_fees"></p>
-                                <p class="item_fees_copy">
-                                    cuotas</p><br>
                         </div>                          
                     </template>              
                 </div>
@@ -278,7 +270,6 @@
 <script type="text/javascript" src="scripts/showMoreProducts.js"></script>
 <script type="text/javascript" src="scripts/modalFilter.js"></script>
 <script type="text/javascript" src="scripts/filterToggle.js"></script>
-    
+
 </body>
 </html>
-
