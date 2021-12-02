@@ -547,12 +547,10 @@ a.modal_button {
 }
 
 
-/*** MEDIA QUERIES ***/
+/****************************** MEDIA QUERIES **********************************/
 
 @media (min-width: 769px) {
-    body {
-        max-width: 1280px;
-    }
+    
     .navHeader {
         padding-left: 52px;
         padding-right: 52px;
@@ -689,11 +687,16 @@ a.modal_button {
     .dropdown_filter:focus {
         box-shadow: #B5B5B5;
     }
-
-    .mas img, .menos img {
-        width: 12px;
+    .dropdown_filter::after{
+        content: '\002B';
+        color: #000000;
+        float: right;
+        margin-left: 5px;
+        font-size: 20px;
     }
-
+    .active::after {
+        content: "\2212";
+      }
     .talle_dropdown, .color_dropdown, .precio_dropdown, 
     .temporada_dropdown, .material_dropdown {
         align-self: flex-start;
@@ -840,3 +843,4 @@ a.modal_button {
       }
 
 }
+
