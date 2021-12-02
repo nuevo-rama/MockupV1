@@ -232,8 +232,8 @@ img.imageSrcMobile {
     display: block;
 }
 
-.item_bestPrice, .item_listPrice::before {
-    content: "$"
+.item_bestPrice::before, .item_listPrice::before {
+    content: "$ "
 }
 
 .item_listPrice {
