@@ -278,8 +278,7 @@
 <script type="text/javascript" src="scripts/showMoreProducts.js"></script>
 <script type="text/javascript" src="scripts/modalFilter.js"></script>
 <script type="text/javascript" src="scripts/filterToggle.js"></script>
-<script type="text/javascript" src="scripts/changeIcon.js"></script>
-
+    
 </body>
 </html>
 
