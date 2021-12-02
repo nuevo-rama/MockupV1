@@ -221,7 +221,7 @@ img.imageSrcMobile {
     text-transform: uppercase;
 }
 
-.item_bestPrice, .item_bestPrice_copy {
+.item_bestPrice {
     margin-top: 10px;
     align-self: flex-start;
     text-align: left;
@@ -232,7 +232,11 @@ img.imageSrcMobile {
     display: block;
 }
 
-.item_listPrice, .item_listPrice_copy {
+.item_bestPrice, .item_listPrice::before {
+    content: "$"
+}
+
+.item_listPrice {
     align-self: flex-start;
     text-align: left;
     font: normal normal normal 15px/19px Montserrat;
@@ -242,13 +246,21 @@ img.imageSrcMobile {
     
 }
 
-.item_fees, .item_fees_copy {
+.item_fees {
     align-self: flex-start;
     text-align: left;
     font: normal normal bold 12px/20px Montserrat;
     letter-spacing: 0px;
     color: #D81313;
     display: block;
+}
+
+.item_fees::before {
+    content: "Hasta ";
+}
+
+.item_fees::after {
+    content: " cuotas";
 }
 
 .btn_more_products {
