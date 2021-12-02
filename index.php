@@ -123,7 +123,6 @@
                 <h2>FILTRAR POR</h2>
                 <div class="dropdown_filter">
                     <button>Talle</button>
-                    <div class="mas"><img src="img/MAS.svg" alt="mas"></div>
                 </div>
                 <div class="talle_dropdown">
                     <input type="radio" id="" name="" value="">
@@ -143,7 +142,6 @@
                 </div>
                 <div class="dropdown_filter">
                     <button>Color</button>
-                    <div class="mas"><img src="img/MAS.svg" alt="mas"></div>
                 </div>
                 <div class="color_dropdown">
                     <input type="radio" id="" name="" value="">
@@ -167,9 +165,8 @@
                     <input type="radio" id="" name="" value="">
                     <label for="">Visón</label><br>
                 </div>
-                <div class="dropdown_filter">
+                <div class="dropdown_filter" onclick="toggle_visibility();">
                     <button>Precio</button>
-                    <div class="mas"><img src="img/MAS.svg" alt="mas"></div>
                 </div>
                 <div class="talle_dropdown">
                     <input type="radio" id="" name="" value="">
@@ -177,9 +174,8 @@
                     <input type="radio" id="" name="" value="">
                     <label for="">$3.000 - $4.000</label><br>
                 </div>
-                <div class="dropdown_filter">
+                <div class="dropdown_filter" onclick="toggle_visibility();">
                     <button>Temporada</button>
-                    <div class="mas"><img src="img/MAS.svg" alt="mas"></div>
                 </div>
                 <div class="talle_dropdown">
                     <input type="radio" id="" name="" value="">
@@ -187,9 +183,8 @@
                     <input type="radio" id="" name="" value="">
                     <label for="">.</label><br>
                 </div>
-                <div class="dropdown_filter">
+                <div class="dropdown_filter" onclick="toggle_visibility();">
                     <button>Material</button>
-                    <div class="mas"><img src="img/MAS.svg" alt="mas"></div>
                 </div>
                 <div class="talle_dropdown">
                     <input type="radio" id="" name="" value="">
@@ -283,6 +278,8 @@
 <script type="text/javascript" src="scripts/showMoreProducts.js"></script>
 <script type="text/javascript" src="scripts/modalFilter.js"></script>
 <script type="text/javascript" src="scripts/filterToggle.js"></script>
+<script type="text/javascript" src="scripts/changeIcon.js"></script>
 
 </body>
 </html>
+
